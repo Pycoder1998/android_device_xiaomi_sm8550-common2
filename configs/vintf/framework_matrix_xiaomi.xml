@@ -89,8 +89,9 @@
             <instance>default</instance>
         </interface>
     </hal>
-    <hal format="aidl" optional="true">
+    <hal format="hidl" optional="true">
         <name>android.hardware.nfc</name>
+        <version>1.0-2</version>
         <interface>
             <name>INfc</name>
             <instance>default</instance>
@@ -2088,4 +2089,4 @@
             <instance>default</instance>
         </interface>
     </hal>
-</compatibility-matrix>
+ </compatibility-matrix>
